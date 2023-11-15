@@ -1,0 +1,43 @@
+#card{
+    margin: 15%;
+    right: 0%;
+    position: absolute;
+    height: 435px;
+    top: 115%;
+    width: 310px;
+    border-radius: 10px;
+    background-color: white;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/018/747/274/non_2x/aesthetic-blue-abstract-background-with-copy-space-area-suitable-for-poster-and-banner-vector.jpg);
+    background-size: 70vh,40vh;
+    box-shadow: 0px 0px 20px red;
+    transform: rotate(20deg);
+    opacity: 0;
+    left: 700%;
+}
+
+img{
+    margin: auto;
+    padding: 4%;
+    display: block;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 red;
+    width: 70px;
+    height: 70px;
+}
+
+h4{
+    text-align:center;
+    -webkit-text-fill-color: rgba(0,200,200,0.1);
+    -webkit-background-clip:text ; background-image:url("https://i.pinimg.com/originals/20/21/7f/20217f7fa2c9701b8128d8fb153a4db9.gif");
+     font-family: 'Allura', cursive;
+     padding:-2%;
+     font-size:19px;
+     overflow:hidden;
+}
+
+.card-show {
+    opacity: 1 !important;
+    transition: 10s;
+    left: -80% !important;
+    /* bottom: 0; */
+}

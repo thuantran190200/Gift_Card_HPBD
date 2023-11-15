@@ -1,0 +1,6 @@
+body {
+
+  background-image: linear-gradient( to bottom, #e9b64b ,#0d0d4b 30%, #c76075 80%, #190e14  95% );
+  background-image:
+  radial-gradient(circle at 1.5% 1.4%, rgb(138, 215, 248) 35%, rgb(255, 177, 219) 65.2%);
+}
